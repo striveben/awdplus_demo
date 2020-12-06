@@ -1,0 +1,7 @@
+version: '2'
+services:
+ web:
+   build: .
+   tty: true
+   ports:
+    - 10099:80
